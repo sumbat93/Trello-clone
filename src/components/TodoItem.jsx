@@ -212,12 +212,12 @@ const StyledButton = styled.button`
   width: 150px;
   height: 32px;
   color: #101204;
-  background-color: #579dff;
+  background-color: #829bb5;
   border: none;
   border-radius: 3px;
   font-weight: 600;
   &:hover {
-    background-color: #7cb3ff;
+    background-color: #829bb5;
   }
 `;
 

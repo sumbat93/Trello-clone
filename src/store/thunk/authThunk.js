@@ -27,7 +27,7 @@ export const signInThunk = createAsyncThunk(
         navigate("/admin");
       }
     } catch (error) {
-      return rejectWithValue(error.response?.data?.message || "Ошибка входа");
+      return rejectWithValue(error.response?.data?.message || "Ошибка болуп калды бро");
     }
   }
 );

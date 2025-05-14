@@ -51,17 +51,17 @@ export const Header = () => {
       <RightNav>
         <IconsButton
           style={{
-            backgroundColor: "#9f8fef",
+            backgroundColor: "#11ac59",
             color: "#1d2125",
             height: "30px",
           }}
         >
           <img src={Icons.Stars} alt="" />
-          Осталось дней: 14
+          Осталось дней: 7
         </IconsButton>
         <IconsButton
           style={{
-            backgroundColor: "#9f8fef",
+            backgroundColor: "#11ac59",
             color: "#1d2125",
             height: "30px",
           }}
@@ -80,7 +80,7 @@ export const Header = () => {
           <IconsButton
             onClick={() =>
               openModal(
-                <IconsButton onClick={handleLogout}>LogOut</IconsButton>
+                <IconsButton onClick={handleLogout}>Обратно</IconsButton>
               )
             }
           >
@@ -117,12 +117,12 @@ const StyledButton = styled.button`
   width: 80px;
   height: 32px;
   color: black;
-  background-color: #579dff;
+  background-color: #27b023;
   border: none;
   border-radius: 3px;
   font-weight: 600;
   &:hover {
-    background-color: #7cb3ff;
+    background-color: #268b51;
   }
 `;
 

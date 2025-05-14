@@ -8,7 +8,7 @@ import Search from "./icons/Search.svg";
 import Bell from "./icons/Bell.svg";
 import Help from "./icons/Help.svg";
 import Person from "./icons/Person.svg";
-import Background from "./images/BackgroundIMG.jpg";
+import Malinki from "./images/Malinki.jpg";
 import Plus from "./icons/plus.svg";
 import Close from "./icons/Close.svg";
 import Hide from "./icons/Hide.svg";
@@ -17,6 +17,7 @@ import Pen from "./icons/Pen.svg";
 import Archive from "./icons/Archive.svg";
 import CircleRight from "./icons/CircleRight.svg";
 import CircleLeft from "./icons/CircleLeft.svg";
+import { Backdrop } from "@mui/material";
 
 export const Icons = {
   BurgerMenu: BurgerMenu,
@@ -29,7 +30,7 @@ export const Icons = {
   Bell: Bell,
   Help: Help,
   Person: Person,
-  Background: Background, 
+  Malinki: Malinkiч,
   Plus: Plus,
   Close: Close,
   Hide: Hide,

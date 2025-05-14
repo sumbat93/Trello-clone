@@ -40,8 +40,8 @@ const IconContainer = styled.div`
 const StyledInput = styled.input`
   width: 100%;
   border-radius: 3px;
-  border: 1px solid #9fadbc;
+  border: 1px solid #829bb5;
   padding-left: 30px;
   background-color: #1d2125;
-  color: #9fadbc;
+  color: #829bb5;
 `;

@@ -38,6 +38,6 @@ const StyledIconsButton = styled.button`
   cursor: pointer;
   font-weight: 600;
   &:hover {
-    background-color: #35393d;
+    background-color: #829bb5;
   }
 `;

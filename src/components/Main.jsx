@@ -48,12 +48,12 @@ export const Main = () => {
             <img src={Icons.CircleLeft} alt="Circle Left" />
           </IconsButton>
           <Vkladki>
-            <IconsButton>Вкладка-1</IconsButton>
-            <IconsButton>Вкладка-2</IconsButton>
-            <IconsButton>Вкладка-3</IconsButton>
-            <IconsButton>Вкладка-4</IconsButton>
-            <IconsButton>Вкладка-5</IconsButton>
-            <IconsButton>Вкладка-6</IconsButton>
+            <IconsButton>one</IconsButton>
+            <IconsButton>two</IconsButton>
+            <IconsButton>three</IconsButton>
+            <IconsButton>four</IconsButton>
+            <IconsButton>five</IconsButton>
+            <IconsButton>six</IconsButton>
           </Vkladki>
         </CenterDiv>
       )}
@@ -78,7 +78,7 @@ export const Main = () => {
 const StyledBackground = styled.div`
   height: 100vh;
   width: 100vw;
-  background: url(${Icons.Background}) center;
+  background: url(${Icons.Malinki}) center;
   background-repeat: round;
   background-size: contain;
   position: fixed;

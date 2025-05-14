@@ -39,7 +39,7 @@ export const addDescriptionToTodo = createAsyncThunk(
       const todo = getState().todo.todos.find((t) => t.id === todoId);
 
       if (!todo) {
-        return rejectWithValue(toast.error("Список не найден"));
+        return rejectWithValue(toast.error("Список жок"));
       }
 
       const updatedDescription = [
@@ -53,9 +53,9 @@ export const addDescriptionToTodo = createAsyncThunk(
       });
 
       dispatch(getTodo());
-      toast.success("Карточка добавлена");
+      toast.success("Карточка кошулду");
     } catch (error) {
-      return rejectWithValue(toast.error("Ошибка при добавлении карточки"));
+      return rejectWithValue(toast.error("Ошибка чыкты , изде бол"));
     }
   }
 );
@@ -67,7 +67,7 @@ export const deleteTitle = createAsyncThunk(
       const todo = getState().todo.todos.find((t) => t.id === todoId);
 
       if (!todo) {
-        return rejectWithValue(toast.error("Задача не найдена"));
+        return rejectWithValue(toast.error("Задача жокко"));
       }
 
       await axiosInstance.patch(`/todos/${todoId}`, {

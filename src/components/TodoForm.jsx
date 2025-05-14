@@ -13,7 +13,7 @@ export const TodoForm = ({ onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!input) {
-      alert("Заполните название");
+      alert("Заполните...");
     } else {
       dispatch(postTodo({ title: input }));
       setInput("");
@@ -26,13 +26,13 @@ export const TodoForm = ({ onClose }) => {
       <StyledForm onSubmit={handleSubmit}>
         <Input
           type="text"
-          placeholder={"Название колонки..."}
+          placeholder={"Название карточки..."}
           style={{ height: "30px" }}
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
         <StyledBtnDiv>
-          <StyledButton type="submit">Добавить список</StyledButton>
+          <StyledButton type="submit">Добавить</StyledButton>
           <IconsButton onClick={onClose}>
             <img src={Icons.Close} alt="Close" />
           </IconsButton>
@@ -46,12 +46,12 @@ const StyledButton = styled.button`
   width: 150px;
   height: 32px;
   color: #1d2125;
-  background-color: #579dff;
+  background-color: #829bb5;
   border: none;
   border-radius: 3px;
   font-weight: 600;
   &:hover {
-    background-color: #7cb3ff;
+    background-color: #829bb5;
   }
 `;
 

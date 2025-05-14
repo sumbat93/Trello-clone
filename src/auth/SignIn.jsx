@@ -89,7 +89,7 @@ export const SignIn = () => {
           Login
         </Button>
         <StyledBox>
-          <p>Don't you have an account?</p>
+          <p>У вас нет аккаунта?</p>
           <StyledLink to="/sign-up">Sign Up</StyledLink>
         </StyledBox>
       </StyledForm>
